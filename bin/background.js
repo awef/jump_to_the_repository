@@ -1,5 +1,5 @@
 (function () {
-  var reg = /^https?:\/\/(?!developer\.|enterprise\.|gist\.|help\.|jobs\.|mac\.|mobile\.|octodex\.|shop\.|status)(\w+)\.github\.com\/([^#\/]+)?.*$/;
+  var reg = /^https?:\/\/(?!api\.|developer\.|enterprise\.|gist\.|help\.|jobs\.|mac\.|mobile\.|octodex\.|shop\.|status)(\w+)\.github\.com\/([^#\/]+)?.*$/;
 
   chrome.tabs.onUpdated.addListener(function (tabId, info, tab) {
     if ("url" in info) {
