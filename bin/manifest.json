@@ -1,6 +1,7 @@
 {
   "name": "Jump to the repository",
   "version": "0.0",
+  "manifest_version": 2,
   "description": "GitHub Pagesからリポジトリのページにジャンプするボタンを表示します",
   "icons": {
     "16": "icon_16x16.png",
@@ -11,9 +12,12 @@
     "default_icon": "icon_19x19.png",
     "default_title": "Jump to the repository"
   },
+  "background": {
+    "scripts": ["background.js"]
+  },
   "background_page": "background.html",
   "incognito": "split",
-  "minimum_chrome_version": "17",
+  "minimum_chrome_version": "18",
   "permissions": [
     "tabs"
   ]
