@@ -15,7 +15,6 @@
   "background": {
     "scripts": ["background.js"]
   },
-  "background_page": "background.html",
   "incognito": "split",
   "minimum_chrome_version": "18",
   "permissions": [
